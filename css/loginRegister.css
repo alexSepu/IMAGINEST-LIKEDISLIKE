@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+#log {
+    background-size: cover;
+    background-color: rgba(192, 192, 192, 0.4);
+    border-radius: 20px;
+    margin-top: 10%;
+    line-height: 1.6;
+    height: 450px;
+}
+
+#regis {
+    background-size: cover;
+    background-color: rgba(192, 192, 192, 0.4);
+    border-radius: 20px;
+    margin-top: 7%;
+    line-height: 1.6;
+    height: 550px;
+}
+
+#log h3 {
+    color: white;
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.log,
+#register {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+input[type="text"]:focus {
+    background-color: #E0DCDC;
+    color: black;
+    border: 1px solid black;
+}
+
+input[type="email"]:focus {
+    background-color: #E0DCDC;
+    color: black;
+    border: 1px solid black;
+}
+
+input[type="password"]:focus {
+    background-color: #E0DCDC;
+    color: black;
+    border: 1px solid black;
+}
+
+.disab {
+    pointer-events: none;
+}
+
+#logoImg img {
+    width: 100%;
+    height: 90%;
+    margin-left: -20px;
+    margin-top: 5%;
+}
+
+#register {
+    background-color: white;
+    margin: 20px;
+}
+
+#register:hover {
+    background-color: blue;
+}
+
+.form-control {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.reg {
+    margin-bottom: 20px;
+}
+
+.error {
+    font-size: 10px;
+    color: red;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    #log #logoImg {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 20px;
+        width: 100%;
+    }
+    #logoImg img {
+        width: 90%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+    #logoImg img {
+        margin-left: -20px;
+        width: 120%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #mockUp {
+        width: 120%;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    #mockUp {
+        display: none;
+    }
+}
+
+.fas {
+    float: right;
+    cursor: pointer;
+    margin: 5px 5px 0px 0px;
+}
+
+.title {
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+
+#text {
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: black;
+}

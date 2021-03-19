@@ -1,0 +1,89 @@
+body {
+    /*background-image: linear-gradient(90deg, #bfdcae, #f1f1e8);*/
+    background-color: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+#gradient {
+    width: 100%;
+    height: 400px;
+    padding: 3%;
+}
+
+body {
+    padding-bottom: 10%;
+}
+
+.dropdown-menu {
+    margin-left: -40px !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+h5 {
+    color: #736861;
+    margin-top: 20px !important;
+    text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+h6 {
+    color: #928566;
+    margin: 0;
+}
+
+.quotes {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 5em;
+}
+
+.leftq {
+    top: -25px;
+    left: 5px;
+    width: 100px;
+}
+
+blockquote {
+    margin: 0;
+    padding: 30px;
+    color: white;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: background-color 0.6s linear;
+}
+
+.rightq {
+    bottom: -10px;
+    right: 5px;
+}
+
+#user {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 200px;
+}
+
+#photo {
+    max-width: 100%;
+    max-height: 50%;
+    transition: transform .2s;
+}
+
+#photo:hover {
+    transform: scale(1.2);
+}
+
+#postUser {
+    flex-direction: column;
+}
+
+.fa-star:hover {
+    transform: scale(1.5);
+}
+
+blockquote:hover {
+    transform: scale(1.1);
+}
+
+.recommended {
+    height: 400px;
+    overflow: auto;
+}

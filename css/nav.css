@@ -1,0 +1,48 @@
+.fixed-bottom {
+    background-color: rgba(var(--d87, 255, 255, 255), 1);
+    display: flex;
+    flex-direction: row !important;
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+#top {
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.navbar-nav:first-child {
+    border-right: 2px solid rgb(38, 38, 38);
+}
+
+.navbar-nav:last-child {
+    border-left: 2px solid rgb(38, 38, 38);
+}
+
+.col-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.smallsep {
+    position: relative;
+    background: #fff;
+    height: 2px;
+    width: 70px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding-bottom: 10%;
+    }
+}
+
+.navbar-brand {
+    margin-right: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #drop {
+        margin-left: -80px;
+    }
+}

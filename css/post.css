@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+body {
+    background-color: rgba(var(--b3f, 250, 250, 250), 1);
+}
+
+#newpublish {
+    font-size: 1rem;
+}
+
+#post {
+    margin-bottom: 10px;
+    flex-direction: column;
+    padding: 0px !important;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#preview {
+    margin-bottom: 10px;
+    flex-direction: column;
+    padding: 0px !important;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 4px dashed black;
+}
+
+input {
+    background-color: white !important;
+    height: 45px !important;
+}
+
+#photoImg,
+#postDesc {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.alert {
+    padding: 20px;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+#exampleInputPassword1 {
+    word-wrap: break-word;
+}
+
+.underline {
+    position: relative;
+    height: 2px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.cap {
+    position: relative;
+    background-color: #0A0068 !important;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pre {
+    padding: 15px !important;
+}
+
+.view {
+    margin: 0 auto;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.post {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 2px solid rgb(107, 107, 107) !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #post {
+        margin-bottom: 30px;
+    }
+}
+
+input::-webkit-file-upload-button {
+    background-color: #0A0068;
+    color: white;
+    border-radius: 10px;
+}
+
+.post:hover {
+    transform: rotate(360deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+#imgPost {
+    position: relative;
+    margin-top: 5%;
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.filter {
+    flex-direction: row !important;
+}
