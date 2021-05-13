@@ -15,7 +15,7 @@ $mail->Port = 587;
 
 //Credencials del compte GMAIL
 $mail->Username = 'sepulvedagarciaalex@gmail.com';
-$mail->Password = 'ogdhrxyorrowlzvg';
+$mail->Password = '';
 
 //Dades del correu electrònic
 $mail->SetFrom('asepulveda2021@educem.net','Verification account');
