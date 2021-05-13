@@ -15,7 +15,7 @@ $mail->Port = 587;
 
 //Credencials del compte GMAIL
 $mail->Username = 'asepulveda2021@educem.net';
-$mail->Password = 'ppufssgitixycfas';
+$mail->Password = '';
 
 //Dades del correu electrònic
 $mail->SetFrom('asepulveda2021@educem.net','Reset password confirm');
